@@ -16,18 +16,23 @@ Since there can be a lot of these events, we have to use pagination so that max 
 There are 2 APIs used to build this page
 
 Event Tags API: It’s a GET request which fetches a list of tags required for Tag Filter. 
-                Endpoint: https://api.codingninjas.com/api/v3/event_tags
+Endpoint: https://api.codingninjas.com/api/v3/event_tags
 
 
 
 Event List API: It’s also a GET request which fetches a list of events on the basis of given params.
-                Endpoint: https://api.codingninjas.com/api/v3/events
-                It accepts 4 params
-                event_category: Filters the events by Category, It accepts one of the 5 values from: 
-                CODING_EVENT, WEBINAR, BOOTCAMP_EVENT, WORKSHOP, ALL_EVENTS
+Endpoint: https://api.codingninjas.com/api/v3/events
+
+It accepts 4 params
+
+event_category: Filters the events by Category, It accepts one of the 5 values from: 
+
+CODING_EVENT, WEBINAR, BOOTCAMP_EVENT, WORKSHOP, ALL_EVENTS
 
 
-   event_sub_category: Filters the events by sub category. Each of the above 5 categories have 3 subcategories i.e. ‘Upcoming’, ‘Archived’ and ‘All Time Favorites’
+   event_sub_category: Filters the events by sub category. 
+   
+   Each of the above 5 categories have 3 subcategories i.e. ‘Upcoming’, ‘Archived’ and ‘All Time Favorites’
 
 
    tag_list: List of selected tags.
