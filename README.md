@@ -1,7 +1,7 @@
 # Coding-Ninjas-Event-Page-Clone
 
 
-Coding Ninjas Event Page Clone using React,Axios and pagination technique
+Coding Ninjas Responsive Event Page Clone using React,Axios and pagination technique
 
 This page can be accessed through this link: https://www.codingninjas.com/events
 
